@@ -2004,7 +2004,7 @@ span.comment-date {
   position: relative;
   margin-top: 40px;
 }
-/*banner de el 30 % de descuento*/
+/*banner de el 50 % de descuento*/
 .cart-banner .image-column .price-box {
   position: absolute;
   left: 15%;
@@ -2013,7 +2013,7 @@ span.comment-date {
   height: 110px;
   border-radius: 50%;
   border: 1px solid #fff;
-  background-color: #f28123;
+  background-color: #23c9f2;
 }
 /*fondo de la parte interna de la promocion*/
 .cart-banner .image-column .price-box .inner-price {
@@ -2024,7 +2024,7 @@ span.comment-date {
   margin-top: 8px;
   text-align: center;
   border-radius: 50%;
-  background-color: #F28123;
+  background-color: #23c9f2;
 }
 /*color de el texto dentro de la promocion*/
 .cart-banner .image-column .price-box .inner-price .price {
@@ -2082,7 +2082,7 @@ span.comment-date {
   padding: 8px 20px 14px;
   text-transform: capitalize;
   text-align: center;
-  border: 2px solid #F28123;
+  border: 3px solid #6b0096;
 }
 /*color de el tiempo restante de promocion*/
 .time-countdown .counter-column .count {
@@ -2091,7 +2091,7 @@ span.comment-date {
   font-size: 30px;
   line-height: 1.4em;
   padding: 0px 0px;
-  color: #F28123;
+  color: #590569;
   font-weight: 700;
   letter-spacing: 1px;
 }

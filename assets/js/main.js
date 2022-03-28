@@ -25,7 +25,7 @@
             }
         });
 
-        // homepage slider
+        // carrucel
         $(".homepage-slider").owlCarousel({
             items: 1,
             loop: true,
@@ -75,17 +75,18 @@
             }
         });
 
-        // count down
+        // contador 
+        
         if($('.time-countdown').length){  
             $('.time-countdown').each(function() {
             var $this = $(this), finalDate = $(this).data('countdown');
             $this.countdown(finalDate, function(event) {
-                var $this = $(this).html(event.strftime('' + '<div class="counter-column"><div class="inner"><span class="count">%D</span>Days</div></div> ' + '<div class="counter-column"><div class="inner"><span class="count">%H</span>Hours</div></div>  ' + '<div class="counter-column"><div class="inner"><span class="count">%M</span>Mins</div></div>  ' + '<div class="counter-column"><div class="inner"><span class="count">%S</span>Secs</div></div>'));
+                var $this = $(this).html(event.strftime('' + '<div class="counter-column"><div class="inner"><span class="count">%D</span>Dias</div></div> ' + '<div class="counter-column"><div class="inner"><span class="count">%H</span>Horas</div></div>  ' + '<div class="counter-column"><div class="inner"><span class="count">%M</span>Minutos</div></div>  ' + '<div class="counter-column"><div class="inner"><span class="count">%S</span>Segundos</div></div>'));
             });
          });
         }
 
-        // projects filters isotop
+        // projects filters isotop en el apartado de tienda
         $(".product-filters li").on('click', function () {
             
             $(".product-filters li").removeClass("active");
@@ -102,7 +103,7 @@
         // isotop inner
         $(".product-lists").isotope();
 
-        // magnific popup
+        // magnific popup apartado de l video de inicio
         $('.popup-youtube').magnificPopup({
             disableOn: 700,
             type: 'iframe',
@@ -142,13 +143,13 @@
             topSpacing: 0
         });
 
-        //mean menu
+        //menu
         $('.main-menu').meanmenu({
             meanMenuContainer: '.mobile-menu',
             meanScreenWidth: "992"
         });
         
-         // search form
+         // Buscar
         $(".search-bar-icon").on("click", function(){
             $(".search-area").addClass("search-active");
         });
