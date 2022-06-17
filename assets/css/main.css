@@ -1586,7 +1586,7 @@ div.owl-controls, .owl-controls div {
 
 /* -----------------------------------------------------------------------------
 
-# News Styles
+# Imagenes de las lineas
 
 ----------------------------------------------------------------------------- */
 .news-bg-1 {
@@ -1671,7 +1671,7 @@ p.excerpt {
   height: 450px;
 }
 .single-artcile-bgIsaac {
-  background-image: url(../img/equipo/directores/Isaac.jpeg);
+  background-image: url(../img/ford_ranger_2019.jpg);
   height: 450px;
 }
 .single-artcile-bgAlexis {
@@ -1950,8 +1950,8 @@ span.comment-date {
 }
 /*color de letra de la parte derecha de la pagina de los jugadores para ver hisoriales o clips*/
 .sidebar-section ul li a {
-  color: #555;
-  font-size: 15px;
+  color: rgb(255, 0, 72);
+  font-size: 20px;
 }
 
 .sidebar-section > div {
@@ -2097,52 +2097,6 @@ span.comment-date {
 }
 
 /* -----------------------------------------------------------------------------
-
-# Testimonial Styles
-
------------------------------------------------------------------------------ */
-.client-avater {
-  margin-bottom: 20px;
-}
-
-.client-meta h3 {
-  font-size: 20px;
-  font-weight: 600;
-}
-/*color de dessarrollador y creador de la pagina web en el statico y carrucel*/
-.client-meta h3 span {
-  display: block;
-  font-size: 70%;
-  margin-top: 10px;
-  color: #051922;
-  font-weight: 600;
-  opacity: 0.5;
-}
-/*color de el parrafo en el apartado de creadores y desarrolladores*/
-p.testimonial-body {
-  font-size: 17px;
-  font-style: italic;
-  width: 700px;
-  margin: 0 auto;
-  line-height: 1.8;
-  color: #999999;
-  margin-top: 20px;
-}
-/*tamaño de las comillas*/
-.last-icon {
-  margin-top: 20px;
-  font-size: 25px;
-  opacity: 0.3;
-}
-
-.client-avater img {
-  max-width: 100px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-/* -----------------------------------------------------------------------------
-
 # About Styles
 
 ----------------------------------------------------------------------------- */
@@ -2216,7 +2170,7 @@ a.video-play-btn {
 
 /* -----------------------------------------------------------------------------
 
-# Shop Banner Styles
+# Estilos del banner de tienda
 
 ----------------------------------------------------------------------------- */
 /*fondo del descuento en el apartado de carrucel*/
@@ -2352,7 +2306,7 @@ ul.social-link-team li a {
 
 /* -----------------------------------------------------------------------------
 
-# Contact Page Styles
+# Estilos de la pagina de contactanos
 
 ----------------------------------------------------------------------------- */
 .form-title {
@@ -2476,7 +2430,7 @@ ul.social-link-team li a {
 
 /* -----------------------------------------------------------------------------
 
-# Shop Page Styles
+# Estilos de la pagina de "tienda"
 
 ----------------------------------------------------------------------------- */
 .product-filters {
@@ -2865,7 +2819,7 @@ table.order-details tbody td {
 /* Diseño de Direccion de whats*/
 #sendbtn, #sendbtn2, .wa-order-button, .gdpr_wa_button_input {
   background-color: rgb(31, 196, 72)!important;
-  color: rgba(255, 255, 255, 1)!important;
+  color: rgb(0, 0, 0)!important;
 }
 .floating_button {
   position: fixed!important;
@@ -2878,6 +2832,6 @@ table.order-details tbody td {
   text-align: center!important;
   box-shadow: 0 8px 25px -5px rgba(45,62,79,.3)!important;
   z-index: 9999999!important;
-  text-decoration: none;
+  text-decoration:aquamarine;
   }
   
